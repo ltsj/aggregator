@@ -563,7 +563,7 @@ if __name__ == "__main__":
         "--targets",
         nargs="+",
         choices=subconverter.CONVERT_TARGETS,
-        default=["clash", "v2ray", "singbox"],
+        default=["clash", "v2ray", "ssr", "singbox"],
         help=f"choose one or more generated profile type. default to clash, v2ray and singbox. supported: {subconverter.CONVERT_TARGETS}",
     )
 
